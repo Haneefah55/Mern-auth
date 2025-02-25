@@ -7,7 +7,9 @@
     "server": "NODE_ENV=development node backend/server.js",
     "start": "NODE_ENV=production node backend/server.js",
     
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "install": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "render-build": "npm install && npm build"
   },
   "keywords": [],
   "author": "",
