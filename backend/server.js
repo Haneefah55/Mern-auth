@@ -19,6 +19,7 @@ app.use(fileUploader())
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 50000 }))
 app.use(cors({ origin: "http://localhost:5173", credentials: true }))
 const _dirname = path.resolve()
+
 if(process.env.NODE_ENV === "production"){
   app.use(express.static(path.join(_dirname, '/frontend/dist')))
   

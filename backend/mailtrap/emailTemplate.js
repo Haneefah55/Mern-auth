@@ -108,7 +108,7 @@ export const PASSWORD_RESET_REQUEST_TEMP = `
       <p>We recieved a request to rest your password, <br>if you didn't make the request, kindly ignore this email</p>
       <p>To reset your password, click the button below</p>
     
-      <a href="{resetUrl}" style="font-size: 12px; background-color: #000080; padding: 16px; border-radius: 4px; color: #fff;">Reset Password</a>
+      <a href="{resetUrl}" style="font-size: 12px; background-color: #000080; padding: 16px; border-radius: 4px; text-align: center; margin: 30px 0; color: #fff;">Reset Password</a>
     
       <p>This code will expire after 1hour for security reasons</p>
       
